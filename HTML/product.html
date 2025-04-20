@@ -1,0 +1,5256 @@
+@@ -0,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8f27d68390.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../CSS/products.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="titl">
+      <a href="../index.html"><h1>Shop Galaxy</h1></a></div>
+      <div class="navbar">
+        
+      <ul>
+        <li><a href="#accessories">ACCESSORIES</a></li> 
+        <li><a href="#fra">FRAGRANCE</a></li> 
+        <li><a href="#home">HOME DECOR</a></li> 
+       
+      </ul> </div> <div class="cart-icon">
+        <i class="fas fa-cart-arrow-down fa-2x"></i>
+      </div>
+       
+      <div class="cart-box">
+        
+        <div class="whole-cart-window hide">
+          <h2>Your Cart</h2>
+          <div class="cart-wrapper">
+            <!-- <div class="cart-item">
+                       <img src="\img\pic5.jpeg"> 
+                       <div class="details">
+                           <h3>Item Name</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <span class="quantity">Quantity: 1</span>
+                               <span class="price">Price: $23.44</span>
+                           </p>
+                       </div>
+                       <div class="cancel"><i class="fas fa-window-close"></i></div>
+                    </div> -->
+            <!-- item 2 -->
+            <!-- <div class="cart-item">
+                        <img src="\img\pic5.jpeg"> 
+                        <div class="details">
+                            <h3>Item Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             <span class="quantity">Quantity: 1</span>
+                                <span class="price">Price: $23.44</span>
+                            </p>
+                        </div>
+                        <div class="cancel"><i class="fas fa-window-close"></i></div>
+                     </div> -->
+          </div>
+          <div class="subtotal">Subtotal: PKR 0.00</div>
+          <div class="checkout"><a href="form.html"><button class="checkout" id="checkout">Buy Cart</button></a></div>
+          <!-- <div class="view-cart"><button class="hdcart">Hide Cart</button></div> -->
+        </div>
+      </div>
+    </header>
+    <hr>
+    <hr>
+
+
+    <section class="shop-section">
+    
+
+
+
+<!---------------------------------------------------
+
+
+
+Cloths Section Open 
+
+
+
+------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="card-wrapper">
+       
+
+
+    
+ <!-- -------------------------------------------
+
+    item 1
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="1" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product1')" src="../cl/cl1.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Fabric: Dhanak</h3>
+      
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Fabric: Dhanak
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Neckline: Embroidered
+•  Daman: Embroidered
+•  Shirt Back Pattern: Plain
+•  Trouser Pattern: Embroidered
+•  Number Of Pieces: 2 Pcs
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Shirt Cutting: 2.5 Gazz
+•  Trouser Cutting: 2.5 Gazz
+•  Pack Of 1
+•   Color: Pink
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ9100000068KZSE
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 3500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product1" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product1')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl1.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll1.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/clll1.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Fabric: Dhanak</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 3500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+•  Fabric: Dhanak 
+•  Pattern: Embroidered 
+•  Shirt Front Pattern: Embroidered 
+•  Neckline: Embroidered 
+•  Daman: Embroidered 
+•  Shirt Back Pattern: Plain 
+•  Trouser Pattern: Embroidered 
+•  Number Of Pieces: 2 Pcs 
+•  Package Includes: 1 x Shirt, 1 x Trouser 
+•  Shirt Cutting: 2.5 Gazz 
+•  Trouser Cutting: 2.5 Gazz 
+•  Pack Of 1 
+•   Color: Pink 
+•  Note: There might be an error 
+of 1-3 cm due to manual measurement, 
+and slight color differences may occur as
+a result of varying 
+lighting and monitor effects.
+•  Product Code: MZ9100000068KZSE  </pre></p> 
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+   <!-- -------------------------------------------
+
+    item 2
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="2" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product2')" src="../cl/cl2.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Fabric: Dhanak
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Fabric: Dhanak
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Neckline: Embroidered
+•  Daman: Embroidered
+•  Shirt Back Pattern: Plain
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Dhanak
+•  Dupatta Pattern: Embroidered
+•  Number Of Pieces: 3 Pcs
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 3.25 Yards
+•  Trouser Cutting: 2.5 Yards
+•  Dupatta Cutting: 2.5 Yards
+•   Color: Pink
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ89000000028RJFC
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4000</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product2" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product2')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl2.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll2.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll2.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Fabric: Dhanak</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4000</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Fabric: Dhanak
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Plain
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Dhanak
+  •  Dupatta Pattern: Embroidered
+  •  Number Of Pieces: 3 Pcs
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 3.25 Yards
+  •  Trouser Cutting: 2.5 Yards
+  •  Dupatta Cutting: 2.5 Yards
+  •   Color: Pink
+  •  Note: There might be an error 
+  of 1-3 cm due to manual measurement, 
+  and slight color differences 
+  may occur as a result
+   of varying lighting and monitor effects.
+  •  Product Code: MZ89000000028RJFC</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+ <!-- -------------------------------------------
+
+    item 3
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="3" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product3')" src="../cl/cl3.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Dhanak
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Dhanak
+•  Pattern: Embroidered
+•  Trouser Fabric: Dhanak
+•  Dupatta Fabric: Dhanak
+•  Number Of Pieces: 3 Pcs
+•  Color: Orange
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.5 Gazz
+•  Trouser Cutting: 2.5 Gazz
+•  Dupatta Cutting: 2.5 Gazz
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ1600000229HACN
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4200</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product3" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product3')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl3.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll3.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll3.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Dhanak
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4200</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Dhanak
+  •  Pattern: Embroidered
+  •  Trouser Fabric: Dhanak
+  •  Dupatta Fabric: Dhanak
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Orange
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, 
+  and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ1600000229HACN</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+ <!-- -------------------------------------------
+
+    item 4
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="4" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product4')" src="../cl/cll4.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Fabric: Linen
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Fabric: Linen
+•  Pattern: Printed
+•  Shirt Front Pattern: Printed
+•  Shirt Back Pattern: Printed
+•  Trouser Pattern: Plain
+•  Dupatta Pattern: Digital Print
+•  Number Of Pieces: 3 Pcs
+•  Color: Multicolor
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.5 Meter
+•  Trouser Cutting: 2.5 Meter
+•  Dupatta Cutting: 2.5 Yards
+•  Note: There might be an error of 1-3 cm due to manual measurement, 
+and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ648200011AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product4" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product4')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../accl4.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../accll4.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/clll4.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Fabric: Linen
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Fabric: Linen
+  •  Pattern: Printed
+  •  Shirt Front Pattern: Printed
+  •  Shirt Back Pattern: Printed
+  •  Trouser Pattern: Plain
+  •  Dupatta Pattern: Digital Print
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Multicolor
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Meter
+  •  Trouser Cutting: 2.5 Meter
+  •  Dupatta Cutting: 2.5 Yards
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ648200011AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+ <!-- -------------------------------------------
+
+    item 5
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="5" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product5')" src="../cl/cl5.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+        •  Pattern: Embroidered
+        •  Shirt Front Pattern: Embroidered
+        •  Neckline: Embroidered
+        •  Sleeves Pattern: Embroidered
+        •  Daman: Embroidered
+        •  Shirt Back Pattern: Embroidered
+        •  Trouser Fabric: Khaddar
+        •  Trouser Pattern: Plain
+        •  Dupatta Fabric: Khaddar
+        •  Dupatta Pattern: Cut Work
+        •  Number Of Pieces: 3 Pcs
+        •  Color: Black
+        •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+        •  Shirt Cutting: 2.5 Gazz
+        •  Trouser Cutting: 2.5 Gazz
+        •  Dupatta Cutting: 2.5 Gazz
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ64800000224AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product5" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product5')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl5.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll5.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll5.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Black
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000224AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+ <!-- -------------------------------------------
+
+    item 6
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="6" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product6')" src="../cl/cl6.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Khaddar</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Neckline: Embroidered
+•  Sleeves Pattern: Embroidered
+•  Daman: Embroidered
+•  Shirt Back Pattern: Embroidered
+•  Trouser Fabric: Khaddar
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Khaddar
+•  Dupatta Pattern: Cut Work
+•  Number Of Pieces: 3 Pcs
+•  Color: Beige
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.5 Gazz
+•  Trouser Cutting: 2.5 Gazz
+•  Dupatta Cutting: 2.5 Gazz
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ64800000222AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product6" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product6')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl6.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll6.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll6.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Khaddar</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Beige
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000222AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 7
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="7" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product7')" src="../cl/cl7.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+        •  Pattern: Embroidered
+        •  Shirt Front Pattern: Embroidered
+        •  Neckline: Embroidered
+        •  Sleeves Pattern: Embroidered
+        •  Daman: Embroidered
+        •  Shirt Back Pattern: Embroidered
+        •  Trouser Fabric: Khaddar
+        •  Trouser Pattern: Plain
+        •  Dupatta Fabric: Khaddar
+        •  Dupatta Pattern: Cut Work
+        •  Number Of Pieces: 3 Pcs
+        •  Color: Pink
+        •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+        •  Shirt Cutting: 2.5 Gazz
+        •  Trouser Cutting: 2.5 Gazz
+        •  Dupatta Cutting: 2.5 Gazz
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ64800000220AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product7" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product7')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl7.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll7.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll7.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Pink
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000220AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 8
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="8" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product8')" src="../cl/cl8.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Neckline: Embroidered
+•  Sleeves Pattern: Embroidered
+•  Daman: Embroidered
+•  Shirt Back Pattern: Embroidered
+•  Trouser Fabric: Khaddar
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Khaddar
+•  Dupatta Pattern: Cut Work
+•  Number Of Pieces: 3 Pcs
+•  Color: Green
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.5 Gazz
+•  Trouser Cutting: 2.5 Gazz
+•  Dupatta Cutting: 2.5 Gazz
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ64800000219AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product8" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product8')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl8.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll8.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll8.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Green
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000219AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 9
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="9" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product9')" src="../cl/cl9.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3> Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Neckline: Embroidered
+•  Sleeves Pattern: Embroidered
+•  Daman: Embroidered
+•  Shirt Back Pattern: Embroidered
+•  Trouser Fabric: Khaddar
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Khaddar
+•  Dupatta Pattern: Cut Work
+•  Number Of Pieces: 3 Pcs
+•  Color: Blue
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.5 Gazz
+•  Trouser Cutting: 2.5 Gazz
+•  Dupatta Cutting: 2.5 Gazz
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ64800000218AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product9" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product9')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../cl/cl9.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll9.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../cl/cll9.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname"> Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Blue
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000218AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+ <!-- -------------------------------------------
+
+    item 10
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="10" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product8')" src="../pic/cl/cl10.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+        •  Pattern: Embroidered
+        •  Shirt Front Pattern: Embroidered
+        •  Neckline: Embroidered
+        •  Sleeves Pattern: Embroidered
+        •  Daman: Embroidered
+        •  Shirt Back Pattern: Embroidered
+        •  Trouser Fabric: Khaddar
+        •  Trouser Pattern: Plain
+        •  Dupatta Fabric: Khaddar
+        •  Dupatta Pattern: Cut Work
+        •  Number Of Pieces: 3 Pcs
+        •  Color: White
+        •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+        •  Shirt Cutting: 2.5 Gazz
+        •  Trouser Cutting: 2.5 Gazz
+        •  Dupatta Cutting: 2.5 Gazz
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ64800000217AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product10" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product10')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/cl/cl10.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cl10.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cl10.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: White
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000217AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 11
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="11" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product11')" src="../pic/cl/cl11.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Fabric: Linen
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Fabric: Linen
+        •  Pattern: Printed
+        •  Shirt Front Pattern: Printed
+        •  Shirt Back Pattern: Printed
+        •  Trouser Pattern: Plain
+        •  Dupatta Pattern: Digital Print
+        •  Number Of Pieces: 3 Pcs
+        •  Color: Black
+        •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+        •  Shirt Cutting: 2.5 Meter
+        •  Trouser Cutting: 2.5 Meter
+        •  Dupatta Cutting: 2.5 Yards
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ648200009AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product11" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product11')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/cl/cl11.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cll11.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cll11.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Fabric: Linen
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Fabric: Linen
+  •  Pattern: Printed
+  •  Shirt Front Pattern: Printed
+  •  Shirt Back Pattern: Printed
+  •  Trouser Pattern: Plain
+  •  Dupatta Pattern: Digital Print
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Black
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Meter
+  •  Trouser Cutting: 2.5 Meter
+  •  Dupatta Cutting: 2.5 Yards
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ648200009AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 12
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="12" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product12')" src="../pic/cl/cl12.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3> Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+        •  Pattern: Embroidered
+        •  Shirt Front Pattern: Embroidered
+        •  Neckline: Embroidered
+        •  Sleeves Pattern: Embroidered
+        •  Daman: Embroidered
+        •  Shirt Back Pattern: Embroidered
+        •  Trouser Fabric: Khaddar
+        •  Trouser Pattern: Plain
+        •  Dupatta Fabric: Khaddar
+        •  Dupatta Pattern: Cut Work
+        •  Number Of Pieces: 3 Pcs
+        •  Color: Lilac
+        •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+        •  Shirt Cutting: 2.5 Gazz
+        •  Trouser Cutting: 2.5 Gazz
+        •  Dupatta Cutting: 2.5 Gazz
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ64800000223AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product12" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product12')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/cl/cl12.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cll12.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cll12.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname"> Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Lilac
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000223AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 13
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="13" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product13')" src="../pic/cl/cl13.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shirt Fabric: Khaddar
+    </h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Shirt Fabric: Khaddar
+        •  Pattern: Embroidered
+        •  Shirt Front Pattern: Embroidered
+        •  Neckline: Embroidered
+        •  Sleeves Pattern: Embroidered
+        •  Daman: Embroidered
+        •  Shirt Back Pattern: Embroidered
+        •  Trouser Fabric: Khaddar
+        •  Trouser Pattern: Plain
+        •  Dupatta Fabric: Khaddar
+        •  Dupatta Pattern: Cut Work
+        •  Number Of Pieces: 3 Pcs
+        •  Color: Purple
+        •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+        •  Shirt Cutting: 2.5 Gazz
+        •  Trouser Cutting: 2.5 Gazz
+        •  Dupatta Cutting: 2.5 Gazz
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ64800000221AISDBYADFS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 4300</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product13" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product13')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/cl/cl13.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cll13.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/cl/cll13.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shirt Fabric: Khaddar
+</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 4300</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Shirt Fabric: Khaddar
+  •  Pattern: Embroidered
+  •  Shirt Front Pattern: Embroidered
+  •  Neckline: Embroidered
+  •  Sleeves Pattern: Embroidered
+  •  Daman: Embroidered
+  •  Shirt Back Pattern: Embroidered
+  •  Trouser Fabric: Khaddar
+  •  Trouser Pattern: Plain
+  •  Dupatta Fabric: Khaddar
+  •  Dupatta Pattern: Cut Work
+  •  Number Of Pieces: 3 Pcs
+  •  Color: Purple
+  •  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+  •  Shirt Cutting: 2.5 Gazz
+  •  Trouser Cutting: 2.5 Gazz
+  •  Dupatta Cutting: 2.5 Gazz
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ64800000221AISDBYADFS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+<!--------------------------------------------------
+
+
+
+cloths Section closed 
+
+
+----------------------------------------------------->
+
+
+
+
+
+
+<!-- cloth carousel -->
+<div class="caro-container" id="accessories"> 
+  <div id="accessorie" class="carousel slide" style="border-radius: 40px;" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#accessorie" data-slide-to="0" class="active"></li>
+      <li data-target="#accessorie" data-slide-to="1"></li>
+      <li data-target="#accessorie" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../pic/acslide.jpg" alt="Los Angeles" style="width:100%; height: 90%;">
+      </div>
+
+      <div class="item">
+        <img src="../pic/accslide.jpg" alt="Chicago" style="width:100%; height: 90%;">
+      </div>
+    
+      <div class="item">
+        <img src="../pic/acccslide.jpg" alt="New york" style="width:100%; height: 90%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#accessorie" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#accessorie" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------------------
+
+
+
+Accessories Section Start 
+
+
+----------------------------------------------------->
+
+
+
+
+
+
+<div class="card-wrapper" >
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 1
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="100" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product100')" src="../pic/acc/p1.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: ABS Plastic
+•  Product Feature: Sleek And Stylish Design, In-built Microphone, Compatible With All Android Devices, Compatible With iPhone Devices
+•  Color: White
+•  Package Includes: 1 x Wired Earphones
+•  Length: 10 Cm
+•  Pack Of 1
+•  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+•  Product Code: MZ70400000009MTAS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product100" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product100')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p1.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p11.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p11.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: ABS Plastic
+  •  Product Feature: Sleek And Stylish Design, In-built Microphone, Compatible With All Android Devices, Compatible With iPhone Devices
+  •  Color: White
+  •  Package Includes: 1 x Wired Earphones
+  •  Length: 10 Cm
+  •  Pack Of 1
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ70400000009MTAS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 2
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="101" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product101')" src="../pic/acc/p2.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Plastic
+•  Color: Black
+•  Package Includes: 1 x Wired Earphones
+•  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+•  Product Code: MZ1268200036ASHB
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1000</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product101" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product101')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p2.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p22.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p22" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1000</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Plastic
+  •  Color: Black
+  •  Package Includes: 1 x Wired Earphones
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ1268200036ASHB</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 3
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="102" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product102')" src="../pic/acc/p3.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: ABS Plastic
+•  Connectivity Tech: Wireless, Bluetooth
+•  Bluetooth Version: Bluetooth 5.3
+•  Product Feature: Long Battery Life, Designed For All-Day Comfort
+•  Color: Black
+•  Package Includes: 1 x Wireless Neckband
+•  880 Model Number
+•  Battery Capacity: 150 Hours
+•  Call Time: 12 Hours
+•  Standby Time: 150 Hours
+•  Pack Of 1
+•  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+•  Product Code: MZ1268200037ASHB
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 3200</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product102" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product102')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p3.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p33.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p33.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 3200</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: ABS Plastic
+  •  Connectivity Tech: Wireless, Bluetooth
+  •  Bluetooth Version: Bluetooth 5.3
+  •  Product Feature: Long Battery Life, Designed For All-Day Comfort
+  •  Color: Black
+  •  Package Includes: 1 x Wireless Neckband
+  •  880 Model Number
+  •  Battery Capacity: 150 Hours
+  •  Call Time: 12 Hours
+  •  Standby Time: 150 Hours
+  •  Pack Of 1
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ1268200037ASHB</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 4
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="104" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product104')" src="../pic/acc/p4.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Wireless Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Plastic
+        •  Connectivity Tech: Wireless, Bluetooth
+        •  Product Feature: Long Battery Life, Fast Charging, Built-In Microphone
+        •  Color: Black,  White
+        •  Package Includes: 1 x Earbuds, 1 x Charging Case
+        •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+        •  Product Code: MZ1268200021ASHB
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 5000</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product104" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product104')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p4.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p44.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p444.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Wireless Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 3500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Plastic
+  •  Connectivity Tech: Wireless, Bluetooth
+  •  Product Feature: Long Battery Life, Fast Charging, Built-In Microphone
+  •  Color: Black,  White
+  •  Package Includes: 1 x Earbuds, 1 x Charging Case
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ1268200021ASHB</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 5
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="105" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product105')" src="../pic/acc/p5.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Wireless Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: ABS Plastic
+        •  Connectivity Tech: Wireless
+        •  Bluetooth Version: Bluetooth 5.3
+        •  Color: Black
+        •  Package Includes: 1 x Earbuds
+        •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+        •  Product Code: MZ4420074RL
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 3200</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product105" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product105')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p5.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p55.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p555.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/acc/p5555.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+
+  <div class="item">
+    <!-- change the pic path -->
+    <img src="../pic/acc/p55555.jpg" alt="Chicago" >
+    <div class="carousel-caption">
+    
+    </div>
+    </div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Wireless Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 3200</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: ABS Plastic
+  •  Connectivity Tech: Wireless
+  •  Bluetooth Version: Bluetooth 5.3
+  •  Color: Black
+  •  Package Includes: 1 x Earbuds
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ4420074RL</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 6
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="106" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product106')" src="../pic/acc/p6.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Wireless Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Metal, Silicone, TPE
+        •  Adaptive EQ automatically tunes music to the shape of your ear, quick charging in the case
+        •  Wearing Type: In-Ear
+        •  Volume Control: Yes
+        •  Microphone: Dual
+        •  Bluetooth Version: V5.3
+        •  Bluetooth Range: 50M
+        •  Charging Time: 1 Hour
+        •  Battery Timing: Up to 12 Hours
+        •  Color: Black
+        •  Package Includes: 1 x Earbuds
+        •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+        •  Product Code: MZ87520023AISR
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product106" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product106')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p6.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p66.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p666.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Wireless Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Metal, Silicone, TPE
+  •  Adaptive EQ automatically tunes music to the shape of your ear, quick charging in the case
+  •  Wearing Type: In-Ear
+  •  Volume Control: Yes
+  •  Microphone: Dual
+  •  Bluetooth Version: V5.3
+  •  Bluetooth Range: 50M
+  •  Charging Time: 1 Hour
+  •  Battery Timing: Up to 12 Hours
+  •  Color: Black
+  •  Package Includes: 1 x Earbuds
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ87520023AISR</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 7
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="107" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product107')" src="../pic/acc/p7.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Wireless Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: ABS
+        •  Product Features: Bluetooth Applicable, Waterproof
+        •  Wireless Charging Supported, High Quality Sound, Charges Quickly In The Case, Easy Setup For All Your Devices
+        •  Battery Time: 4 To 5 Hours
+        •  Package Includes: 1 x Earbuds
+        •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+        •  Product Code: MZ3700020RHZM
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 3500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product107" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product107')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p7.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p77.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p77.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Wireless Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 3500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: ABS
+  •  Product Features: Bluetooth Applicable, Waterproof
+  •  Wireless Charging Supported, High Quality Sound, Charges Quickly In The Case, Easy Setup For All Your Devices
+  •  Battery Time: 4 To 5 Hours
+  •  Package Includes: 1 x Earbuds
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ3700020RHZM</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 8
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="108" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product108')" src="../pic/acc/p8.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Wireless Hands Free</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Metal, Silicone, TPE
+        •  Product Features: High Quality, Easy To Ears, Hassle Free Calls, Best Sound, Compatible With Android Phones
+        •  Wearing Type: In Ear
+        •  Volume Control: Yes
+        •  Microphone: Yes
+        •  Color: White
+        •  Package Includes: 1 x Handsfree
+        •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+        •  Product Code: MZ3700208RHZM
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1299</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product108" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product108')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p8.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p88.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p88.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Wireless Hands Free</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1299</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Metal, Silicone, TPE
+  •  Product Features: High Quality, Easy To Ears, Hassle Free Calls, Best Sound, Compatible With Android Phones
+  •  Wearing Type: In Ear
+  •  Volume Control: Yes
+  •  Microphone: Yes
+  •  Color: White
+  •  Package Includes: 1 x Handsfree
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ3700208RHZM</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 9
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="109" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product109')" src="../pic/acc/p9.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Mobile Charger</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Plastic
+•  Charging Ports: Type C
+•  Product Feature: Fast Charging
+•  Color: White
+•  Package Includes: 1 x Power Adapter, 1 x Charging Cable
+•  Watts: 20 Watt
+•  Pack Of 1
+•  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+•  Product Code: MZ59700000166ONTEGO
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1900</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product109" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product109')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p9.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p99.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p99" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Mobile Charger</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1900</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Plastic
+  •  Charging Ports: Type C
+  •  Product Feature: Fast Charging
+  •  Color: White
+  •  Package Includes: 1 x Power Adapter, 1 x Charging Cable
+  •  Watts: 20 Watt
+  •  Pack Of 1
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ59700000166ONTEGO</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 10
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="110" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product110')" src="../pic/acc/p10.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Mobile Charger</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: ABS Plastic
+•  Color: White
+•  For iPhone SE/13/12/11/X Mini
+•  Package Includes: 1 x Wireless Mobile Phone Charger And Lamp
+•  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+•  Product Code: MZ1360200021WDDR
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 2000</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product110" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product110')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/acc/p10.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p1010.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p101010.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/acc/p10101010.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Mobile Charger</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 2000</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: ABS Plastic
+  •  Color: White
+  •  For iPhone SE/13/12/11/X Mini
+  •  Package Includes: 1 x Wireless Mobile Phone Charger And Lamp
+  •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
+  •  Product Code: MZ1360200021WDDR</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+
+
+</div>
+<!--------------------------------------------------
+
+
+
+fragrance Section closed 
+
+
+----------------------------------------------------->
+
+
+
+
+
+
+<!-- cloth carousel -->
+<div class="caro-container" id="accessories"> 
+  <div id="fra" class="carousel slide" style="border-radius: 40px;" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#fra" data-slide-to="0" class="active"></li>
+      <li data-target="#fra" data-slide-to="1"></li>
+      <li data-target="#fra" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../pic/frslide.jpg" alt="Los Angeles" style="width:100%; height: 90%;">
+      </div>
+
+      <div class="item">
+        <img src="../pic/frrslide.jpg" alt="Chicago" style="width:100%; height: 90%;">
+      </div>
+    
+      <div class="item">
+        <img src="../pic/frrrslide.jpg" alt="New york" style="width:100%; height: 90%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#fra" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#fra" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------------------
+
+
+
+fragrance section start
+
+
+----------------------------------------------------->
+
+
+<div class="card-wrapper" >
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 1
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="201" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product201')" src="../pic/frag/p1.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Janan Fragrance</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Liquid
+•  Gender Type: Men
+•  Package Includes: 1 x Perfume
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ603200006MNSRPS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1700</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product201" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product201')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/frag/p1.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/p11.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p101010.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/acc/p10101010.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Janan Fragrance</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1700</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Liquid
+  •  Gender Type: Men
+  •  Package Includes: 1 x Perfume
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ603200006MNSRPS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 2
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="202" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product202')" src="../pic/frag/p2.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Janan Fragrance</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Liquid
+•  Gender Type: Men
+•  Package Includes: 1 x Perfume
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ603200006MNSRPS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1700</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product202" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product202')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/frag/p2.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/p22.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/acc/p22.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/acc/p22.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Janan FRAGRANCE</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1700</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Liquid
+  •  Gender Type: Men
+  •  Package Includes: 1 x Perfume
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ603200006MNSRPS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 3
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="203" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product203')" src="../pic/frag/frr1.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Janan Fragrance</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Liquid
+•  Gender Type: Men
+•  Package Includes: 1 x Perfume
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+•  Product Code: MZ603200006MNSRPS
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 2000</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product203" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product203')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/frag/frr1.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/frrr.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/frrrr.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/frag/frrrr.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Janan Fragrance</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 2000</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Liquid
+  •  Gender Type: Men
+  •  Package Includes: 1 x Perfume
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ603200006MNSRPS</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 4
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="204" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product204')" src="../pic/frag/img6.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Galbanum Fragrance</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Fragrance: Galbanum
+        •  Material: Liquid
+        •  Product Feature: Long Lasting Fragrance
+        •  Gender Type: Unisex
+        •  Package Includes: 1 x Perfume
+        •  Quantity: 100 Ml
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ1089200021NWSNBY
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1600</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product204" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product204')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/frag/img6.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/img7.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/img8.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/frag/img9.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+  <div class="item">
+    <!-- change the pic path -->
+    <img src="../pic/frag/img10.jpg" alt="Chicago" >
+    <div class="carousel-caption">
+    
+    </div>
+    </div>
+    <div class="item">
+      <!-- change the pic path -->
+      <img src="../pic/frag/img11.jpg" alt="Chicago" >
+      <div class="carousel-caption">
+      
+      </div>
+      </div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Galbanum Fragrance</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1600</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Fragrance: Galbanum
+  •  Material: Liquid
+  •  Product Feature: Long Lasting Fragrance
+  •  Gender Type: Unisex
+  •  Package Includes: 1 x Perfume
+  •  Quantity: 100 Ml
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ1089200021NWSNBY</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 5
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="205" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product205')" src="../pic/frag/img12.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Shalis Fragrance</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •   Pocket Perfume
+•  40 ml
+•  Disclaimer: Before using a new cosmetic product, try a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read warning labels and directions on the package for using any cosmetics.
+•  Product Code: MZ18700267RFAAC
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product205" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product205')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/frag/img12.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/img12.jpg"" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/frag/img12.jpg"" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Shalis Fragrance</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •   Pocket Perfume
+  •  40 ml
+  •  Disclaimer: Before using a new cosmetic product, try a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read warning labels and directions on the package for using any cosmetics.
+  •  Product Code: MZ18700267RFAAC</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+</div>
+<!--------------------------------------------------
+
+
+
+Fragrance Section closed 
+
+
+----------------------------------------------------->
+
+
+
+
+
+
+<!-- cloth carousel -->
+<div class="caro-container" id="accessories"> 
+  <div id="home" class="carousel slide" style="border-radius: 40px;" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#home" data-slide-to="0" class="active"></li>
+      <li data-target="#home" data-slide-to="1"></li>
+      <li data-target="#home" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../pic/homeslide.jpg" alt="Los Angeles" style="width:100%; height: 90%;">
+      </div>
+
+      <div class="item">
+        <img src="../pic/hhomeslide.jpg" alt="Chicago" style="width:100%; height: 90%;">
+      </div>
+    
+      <div class="item">
+        <img src="../pic/hhhomeslide.jpg" alt="New york" style="width:100%; height: 90%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#home" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#home" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------------------
+
+
+
+Home decor Section Start 
+
+
+----------------------------------------------------->
+
+
+<div class="card-wrapper" >
+
+
+ <!-- -------------------------------------------
+
+    item 1
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="301" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product301')" src="../pic/home/p1.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>USB ARC Rechargreable Keychain Lighter</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Metal
+        •  Number Of Pieces: 1 Pc
+        •  Product Feature: Portable & Rechargeable
+        •  Color: Black
+        •  Package Includes: 1 x Electric Lighter
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ86300034SSOEMT
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1600</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product301" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product301')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p1.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p11.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p111.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">USB ARC Rechargreable Keychain Lighter</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1600</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Metal
+  •  Number Of Pieces: 1 Pc
+  •  Product Feature: Portable & Rechargeable
+  •  Color: Black
+  •  Package Includes: 1 x Electric Lighter
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ86300034SSOEMT</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 2
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="302" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product302')" src="../pic/home/p2.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>The ordinary serum</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Liquid
+        •  Product Type: Niacinamide Skin Brightening Serum
+        •  Product Details: Skin Brightening, Evens Skin Tone, Hydration Boost, Gentle And Non Irritating, Kin Plump And Hydrated, Unveil Your Natural Beauty
+        •  Color: White
+        •  Package Includes: 1 x Serum
+        •  Weight: 30 Ml
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1700</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product302" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product302')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p2.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p22.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p222.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">The ordinary serum</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1700</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Liquid
+  •  Product Type: Niacinamide Skin Brightening Serum
+  •  Product Details: Skin Brightening, Evens Skin Tone, Hydration Boost, Gentle And Non Irritating, Kin Plump And Hydrated, Unveil Your Natural Beauty
+  •  Color: White
+  •  Package Includes: 1 x Serum
+  •  Weight: 30 Ml</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 3
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="303" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product303')" src="../pic/home/p3.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Makeup Set</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Metal
+        •  Product Feature: 9 in 1
+        •  Package Includes: 1 x Lipsticks, 1 x Foundation, 1 x Setting Loose Powder, 1 x Eyebrows Pencil, 1 x False Eyelashes, 1 x Blushes, 1 x Highlighter, 1 x Eye Pencil
+        •  1x nail remover 1x puff
+        •  Note: Before using any new cosmetic product, perform a patch test on a small skin area. Verify ingredients for allergies and follow package warnings and directions.
+        •  Product Code: MZ58900000057BYWD
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 2000</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product303" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product303')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p3.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p33.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p333" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Makeup Set/h2>
+<span class="product-price" id="ppprice" name="pprice">Price 2000</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Metal
+  •  Product Feature: 9 in 1
+  •  Package Includes: 1 x Lipsticks, 1 x Foundation, 1 x Setting Loose Powder, 1 x Eyebrows Pencil, 1 x False Eyelashes, 1 x Blushes, 1 x Highlighter, 1 x Eye Pencil
+  •  1x nail remover 1x puff
+  •  Note: Before using any new cosmetic product, perform a patch test on a small skin area. Verify ingredients for allergies and follow package warnings and directions.
+  •  Product Code: MZ58900000057BYWD</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+ <!-- -------------------------------------------
+
+    item 4
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="304" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product304')" src="../pic/home/p4.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Women Parse</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        💕 Fendi Cross Body Bag with Digital Strap 💕
+        🔸 Unique Design
+        🔸 Long Digital Strap
+        🔸 Good Quality
+        🔸 Material : P
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1500</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product304" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product304')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p4.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p4.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p4.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Women Parse</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1500</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span>
+  💕 Fendi Cross Body Bag with Digital Strap 💕
+  🔸 Unique Design
+  🔸 Long Digital Strap
+  🔸 Good Quality
+  🔸 Material : P
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 5
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="305" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product305')" src="../pic/home/p5.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Kitchen Set</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        •  Material: Plastic
+        •  Number Of Pieces: 6 Pc
+        •  Product Feature: Versatile Tools For Various Kitchen Tasks, Easy To Clean And Maintain, Compact Designs For Kitchens With Limited Space
+        •  Color: Green
+        •  Package Includes: 1 x Vegetable Cutter
+        •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+        •  Product Code: MZ1160200044ADSE
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 2100</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product305" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product305')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p5.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p55.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p555.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/home/p5555.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+  <div class="item">
+    <!-- change the pic path -->
+    <img src="../pic/home/p55555.jpg" alt="Chicago" >
+    <div class="carousel-caption">
+    
+    </div>
+    </div>
+    <div class="item">
+      <!-- change the pic path -->
+      <img src="../pic/home/p555555.jpg" alt="Chicago" >
+      <div class="carousel-caption">
+      
+      </div>
+      </div>
+
+      <div class="item">
+        <!-- change the pic path -->
+        <img src="../pic/home/p5555555.jpg" alt="Chicago" >
+        <div class="carousel-caption">
+        
+        </div>
+        </div>
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Kitchen Set</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 2100</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  •  Material: Plastic
+  •  Number Of Pieces: 6 Pc
+  •  Product Feature: Versatile Tools For Various Kitchen Tasks, Easy To Clean And Maintain, Compact Designs For Kitchens With Limited Space
+  •  Color: Green
+  •  Package Includes: 1 x Vegetable Cutter
+  •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+  •  Product Code: MZ1160200044ADSE</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+
+
+ <!-- -------------------------------------------
+
+    item 6
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="306" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product306')" src="../pic/home/p6.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Smart Wallet</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        Businessman Collection
+
+        7-days money back guarantee
+        
+        🔶 Synthetic materials
+        
+        🔶 1x Cash Compartment
+        
+        🔶 3x Card holders
+        
+        🔶 1x ID windows
+        
+        🔶 2 Secret Compartment
+        
+        🔶 Size 4inch x 4.5inch
+        
+        🔶 Fine stitching
+        
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 900</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product306" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product306')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p6.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p66.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p666.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/home/p6666.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+
+  <div class="item">
+    <!-- change the pic path -->
+    <img src="../pic/home/p66666.jpg" alt="Chicago" >
+    <div class="carousel-caption">
+    
+    </div>
+    </div>
+
+    <div class="item">
+      <!-- change the pic path -->
+      <img src="../pic/home/p666666.jpg" alt="Chicago" >
+      <div class="carousel-caption">
+      
+      </div>
+      </div>
+      <div class="item">
+        <!-- change the pic path -->
+        <img src="../pic/home/p6666666.jpg" alt="Chicago" >
+        <div class="carousel-caption">
+        
+        </div>
+        </div>
+
+
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Smart Wallet</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 900</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  Businessman Collection
+
+  7-days money back guarantee
+  
+  🔶 Synthetic materials
+  
+  🔶 1x Cash Compartment
+  
+  🔶 3x Card holders
+  
+  🔶 1x ID windows
+  
+  🔶 2 Secret Compartment
+  
+  🔶 Size 4inch x 4.5inch
+  
+  🔶 Fine stitching
+</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+ <!-- -------------------------------------------
+
+    item 7
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="307" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product307')" src="../pic/home/p7.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Smart Wallet</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        Businessman Collection
+
+        7-days money back guarantee
+        
+        🔶 Synthetic materials
+        
+        🔶 1x Cash Compartment
+        
+        🔶 3x Card holders
+        
+        🔶 1x ID windows
+        
+        🔶 2 Secret Compartment
+        
+        🔶 Size 4inch x 4.5inch
+        
+        🔶 Fine stitching
+        
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 900</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product307" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product307')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p7.jpg.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p77.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p777.jpg alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/home/p7777.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+  <div class="item">
+    <!-- change the pic path -->
+    <img src="../pic/home/p77777.jpg" alt="Chicago" >
+    <div class="carousel-caption">
+    
+    </div>
+    </div>
+    <div class="item">
+      <!-- change the pic path -->
+      <img src="../pic/home/p777777.jpg" alt="Chicago" >
+      <div class="carousel-caption">
+      
+      </div>
+      </div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Smart Wallet</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 900</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  Businessman Collection
+
+  7-days money back guarantee
+  
+  🔶 Synthetic materials
+  
+  🔶 1x Cash Compartment
+  
+  🔶 3x Card holders
+  
+  🔶 1x ID windows
+  
+  🔶 2 Secret Compartment
+  
+  🔶 Size 4inch x 4.5inch
+  
+  🔶 Fine stitching
+</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+ <!-- -------------------------------------------
+
+    item 8
+    
+   ---------------------------------------------------- -->
+<!-- Change the data id -->
+<div data-id="308" class="card-item" >
+  <!-- change the pic and also productnumber -->
+  <img onclick="openModal('product308')" src="../pic/home/p8.jpg" />
+  <div class="details">
+    <!-- change the name of product -->
+    <h3>Smart Wallet</h3>
+    <p>
+      <!-- change the discription of product -->
+      <span style="display: none;">
+        Businessman Collection
+
+        7-days money back guarantee
+        
+        🔶 Synthetic materials
+        
+        🔶 1x Cash Compartment
+        
+        🔶 3x Card holders
+        
+        🔶 1x ID windows
+        
+        🔶 2 Secret Compartment
+        
+        🔶 Size 4inch x 4.5inch
+        
+        🔶 Fine stitching
+        
+        </span>
+       
+<!--          change the price of the product -->
+      <span class="price">Price: 1350</span>
+      
+      <span class="add-to-cart-btn">Add To Cart</span>
+    </p>
+   
+      <button class="buy" id="buy">Buy Now</button>
+ 
+  
+  </div>
+</div>
+
+
+                       <!-- carousel  -->
+                        <!-- change the product id -->
+                       <div id="product308" class="modal">
+                        <div class="modal-content">
+                          <!-- change the product number -->
+                            <span class="close" onclick="closeModal('product308')">&times;</span>
+                          
+                            
+<!-- carousel -->
+<div class="container" style="width: 200px; height: 200px;">
+
+                    
+<div id="o" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#o" data-slide-to="0" class="active"></li>
+<li data-target="#o" data-slide-to="1"></li>
+<li data-target="#o" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+
+<div class="item active">
+<!-- change the pic path -->
+<img src="../pic/home/p8.jpg" id="pimg" name="pimg" alt="Los Angeles" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p88.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+<!-- change the pic path -->
+<img src="../pic/home/p888.jpg" alt="Chicago" >
+<div class="carousel-caption">
+
+</div>
+</div>
+
+<div class="item">
+  <!-- change the pic path -->
+  <img src="../pic/home/p8888.jpg" alt="Chicago" >
+  <div class="carousel-caption">
+  
+  </div>
+  </div>
+  <div class="item">
+    <!-- change the pic path -->
+    <img src="../pic/home/p88888.jpg" alt="Chicago" >
+    <div class="carousel-caption">
+    
+    </div>
+    </div>
+    <div class="item">
+      <!-- change the pic path -->
+      <img src="../pic/home/p888888.jpg" alt="Chicago" >
+      <div class="carousel-caption">
+      
+      </div>
+      </div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCa" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCa" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- change the detail of the product name price discription -->
+<h2 class="product-title" id="ppname" name="pname">Smart Wallet</h2>
+<span class="product-price" id="ppprice" name="pprice">Price 1350</span>
+<h2>Discription</h2>
+<p id="ppdisc" name="pdisc">
+<span><pre>
+  Businessman Collection
+
+  7-days money back guarantee
+  
+  🔶 Synthetic materials
+  
+  🔶 1x Cash Compartment
+  
+  🔶 3x Card holders
+  
+  🔶 1x ID windows
+  
+  🔶 2 Secret Compartment
+  
+  🔶 Size 4inch x 4.5inch
+  
+  🔶 Fine stitching
+</pre>
+<hr></span>
+
+<button class="buy-cart" id="buy-cart" >Buy Item</button>
+
+</div> </div>
+
+
+
+                    
+
+
+
+
+
+
+      </div>
+    </section>
+
+    <script src="../js/product.js"></script>
+  </body>
+</html>
