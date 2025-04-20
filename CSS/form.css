@@ -1,0 +1,110 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(../formbg.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0%;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    z-index: -2;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.form{
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.registration-form {
+    background-color: transparent;
+    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* max-width: 400px; */
+    padding-top: 0px;
+}
+.registration-form h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    
+}
+.registration-form .form-group {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.registration-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+.registration-form .form-group input,
+.registration-form .form-group select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.registration-form .form-group input:focus,
+.registration-form .form-group select:focus {
+    border-color: #171427;
+    outline: none;
+    transition: .5s ease-in;
+}
+.registration-form .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #171427;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.registration-form .form-group button:hover {
+    background-color: transparent;
+    transition: .5s ease-in;
+}
+.additional-fields {
+    display: none;
+}
+@media (max-width: 712px) {
+    .text{
+        font-size: 12px;
+        margin-top: 270px;
+        margin-left: 10px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .form{
+        padding-right: 10%;
+        padding-left: 50%;
+    }
+    .registration-form {
+        padding: 15px;
+        font-size: 10px;
+    }
+    .registration-form h2 {
+        font-size: 2px;
+    }
+}
